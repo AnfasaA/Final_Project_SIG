@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<title>MRT Jakarta</title>
+<link rel="icon" href="assets/images/Logo.png" type="image/x-icon type">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta3/css/bootstrap.min.css" integrity="sha512-N415hCJJdJx+1UBfULt+i+ihvOn42V/kOjOpp1UTh4CZ70Hx5bDlKryWaqEKfY/8EYOu/C2MuyaluJryK1Lb5Q==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/script/main.js" defer></script>
+
+<body>
+    <nav class="navbar navbar-fixed-top bg-nav">
+        <div style="margin-left: 80px;">
+            <a class="navbar-brand" href="/">
+                <div class="logo-image">
+                      <img src="assets/images/navbar1.png" class="img-fluid">
+                </div>
+            </a>
+            <a class="navbar-brand" href="/">
+                <div class="logo-image2">
+                      <img src="assets/images/navbar2.png" class="img-fluid">
+                </div>
+            </a>
+        </div>
+        <div style="margin-right: 80px;">
+            <div style="display: inline-block;">
+                <a class="nav-link mx-3" href="index.html" role="button" style="font-size: x-large; color: white;">
+                    Beranda
+                </a>
+            </div>
+            <div style="display: inline-block;">
+                <a class="nav-link mx-3" href="stasiun.html" role="button" style="font-size: x-large; color: white;">
+                    Stasiun
+                </a>
+            </div>
+            <div style="display: inline-block;">
+                <a class="nav-link mx-3" href="#" role="button" style="font-size: x-large; color: white;">
+                    Rute
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div id='map'></div>
+    <div id="filter-group" class="filter-group"></div>
+    <button id="flylbg"><strong>Stasiun Lebak Bulus Grab</strong></button>
+    <button id="flyf"><strong>Stasiun Fatmawati</strong></button>
+    <button id="flycr"><strong>Stasiun Cipete Raya</strong></button>
+    <button id="flyhn"><strong>Stasiun Haji Nawi</strong></button>
+    <button id="flyba"><strong>Stasiun Blok A</strong></button>
+    <button id="flybm"><strong>Stasiun Blok M BCA</strong></button>
+    <button id="flybas"><strong>Stasiun Asean</strong></button>
+    <button id="flys"><strong>Stasiun Senayan</strong></button>
+    <button id="flyim"><strong>Stasiun Istora Mandiri</strong></button>
+    <button id="flybh"><strong>Stasiun Bendungan Hilir</strong></button>
+    <button id="flysb"><strong>Stasiun Setiabudi Astra</strong></button>
+    <button id="flyab"><strong>Stasiun Dukuh Atas BNI</strong></button>
+    <button id="flyhi"><strong>Stasiun Bundaran HI</strong></button>
+</body>
+</html>

@@ -1,0 +1,335 @@
+.logo-image{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-bottom: -30px;
+    display: inline-block;
+}
+
+.logo-image2{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: -88px;
+    display: inline-block;
+}
+
+.bg-nav{
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.head-text {
+    position: absolute;
+    bottom: 220px;
+    left: 100px;
+}
+
+#map {
+    height: 86.5vh;
+    width: 99.8vw;
+}
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.filter-group {
+font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+font-weight: 600;
+position: absolute;
+top: 95px;
+left: 5px;
+z-index: 1;
+border-radius: 3px;
+width: 200px;
+color: #fff;
+}
+
+.filter-group input[type='checkbox']:first-child + label {
+border-radius: 3px 3px 0 0;
+}
+
+.filter-group label:last-child {
+border-radius: 0 0 3px 3px;
+border: none;
+}
+
+.filter-group input[type='checkbox'] {
+display: none;
+}
+
+.filter-group input[type='checkbox'] + label {
+background-color: #103c8c;
+display: block;
+cursor: pointer;
+padding: 10px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.filter-group input[type='checkbox'] + label {
+background-color: #103c8c;
+text-transform: capitalize;
+}
+
+.filter-group input[type='checkbox'] + label:hover,
+.filter-group input[type='checkbox']:checked + label {
+background-color: #103c8c;
+}
+
+.filter-group input[type='checkbox']:checked + label:before {
+margin-right: 5px;
+}
+
+#flylbg {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    z-index: 1;
+    justify-content: space-between;
+    margin-top: -2px;
+    margin-left: -5px;
+    width: 300px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #103c8c;
+    }
+
+#flyf {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    z-index: 1;
+    justify-content: space-between;
+    margin-top: 43px;
+    margin-left: -5px;
+    width: 300px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #103c8c;
+    }
+
+#flycr {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    z-index: 1;
+    justify-content: space-between;
+    margin-top: 87px;
+    margin-left: -5px;
+    width: 300px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #103c8c;
+    }
+
+#flyhn {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    z-index: 1;
+    justify-content: space-between;
+    margin-top: 131px;
+    margin-left: -5px;
+    width: 300px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #103c8c;
+    }
+
+#flyba {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    z-index: 1;
+    justify-content: space-between;
+    margin-top: 175px;
+    margin-left: -5px;
+    width: 300px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #103c8c;
+    }
+
+#flybm {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    z-index: 1;
+    justify-content: space-between;
+    margin-top: 219px;
+    margin-left: -5px;
+    width: 300px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #103c8c;
+    }
+
+#flybas {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    z-index: 1;
+    justify-content: space-between;
+    margin-top: 263px;
+    margin-left: -5px;
+    width: 300px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #103c8c;
+    }
+
+#flys {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    z-index: 1;
+    justify-content: space-between;
+    margin-top: 307px;
+    margin-left: -5px;
+    width: 300px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #103c8c;
+    }
+
+#flyim {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    z-index: 1;
+    justify-content: space-between;
+    margin-top: 351px;
+    margin-left: -5px;
+    width: 300px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #103c8c;
+    }
+
+#flybh {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    z-index: 1;
+    justify-content: space-between;
+    margin-top: 395px;
+    margin-left: -5px;
+    width: 300px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #103c8c;
+    }
+
+#flysb {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    z-index: 1;
+    justify-content: space-between;
+    margin-top: 439px;
+    margin-left: -5px;
+    width: 300px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #103c8c;
+    }
+
+#flyab {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    z-index: 1;
+    justify-content: space-between;
+    margin-top: 483px;
+    margin-left: -5px;
+    width: 300px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #103c8c;
+    }
+
+#flyhi {
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    z-index: 1;
+    justify-content: space-between;
+    margin-top: 528px;
+    margin-left: -5px;
+    width: 300px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #103c8c;
+    }
+
+.card1 {
+    width: 1000px;
+    margin-top: 70px;
+    margin-left: 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.striped-border { 
+    border: 2px solid #000;
+    background-color: #000; 
+}
